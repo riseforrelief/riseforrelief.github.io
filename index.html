@@ -122,6 +122,18 @@
       padding: 30px 0;
       font-size: 0.95rem;
     }
+    .logo-circle {
+    background: #ffffff;
+    border-radius: 50%;
+    padding: 8px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    }
+    .logo-circle img {
+    display: block;
+    }
+
   </style>
 </head>
 <body>
@@ -149,7 +161,9 @@
 <!-- Hero -->
 <section class="hero" id="home">
   <div class="container">
-    <img src="logo.png" alt="Rise for Relief Logo" class="mb-4" style="max-width:180px;">
+    <div class="logo-circle mb-4" style="padding:16px;">
+        <img src="logo.png" alt="Rise for Relief Logo" style="max-width:180px;">
+    </div>
     <h1>Rise for Relief Philippines</h1>
     <p><em>Together, We Rise After the Storm</em></p>
     <a href="#contact" class="btn btn-warning btn-lg me-2">Donate</a>
